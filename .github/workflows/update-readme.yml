@@ -1,0 +1,21 @@
+name: Update README with Recent Activity
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 毎日 UTC 0:00 (JST 9:00) に実行
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update README
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: 'docs: update README with recent activity'
+          MAX_LINES: 5
