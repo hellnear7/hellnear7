@@ -9,18 +9,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hellnear7&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hellnear7&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
 ## 📈 Activity Graph
 
 <p align="center">
@@ -29,11 +17,28 @@
 
 ---
 
-## 🔥 Recent Activity
+## 📊 Activity Stats
 
-<!--START_SECTION:activity-->
-<!-- 後で GitHub Actions で自動更新できます -->
-<!--END_SECTION:activity-->
+### 📅 今日
+| 項目 | 件数 |
+|------|------|
+| PR作成 | <!--today_pr_created-->0<!--/today_pr_created--> |
+| PRレビュー | <!--today_pr_reviewed-->0<!--/today_pr_reviewed--> |
+| コメント | <!--today_commented-->0<!--/today_commented--> |
+
+### 📆 今週
+| 項目 | 件数 |
+|------|------|
+| PR作成 | <!--week_pr_created-->0<!--/week_pr_created--> |
+| PRレビュー | <!--week_pr_reviewed-->0<!--/week_pr_reviewed--> |
+| コメント | <!--week_commented-->0<!--/week_commented--> |
+
+### 🗓️ 今月
+| 項目 | 件数 |
+|------|------|
+| PR作成 | <!--month_pr_created-->0<!--/month_pr_created--> |
+| PRレビュー | <!--month_pr_reviewed-->0<!--/month_pr_reviewed--> |
+| コメント | <!--month_commented-->0<!--/month_commented--> |
 
 ---
 
