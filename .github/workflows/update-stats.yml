@@ -25,7 +25,7 @@ jobs:
           chmod +x scripts/update_stats.sh
           ./scripts/update_stats.sh
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
       
       - name: Commit and Push
         run: |
